@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Support — Smart AI</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+<script>try{var t=localStorage.getItem('smartai_theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+<script src="js/auth.js"></script>
+<script src="js/app.js"></script>
+<script>
+if (renderShell('support')) {
+  document.getElementById('page-content').innerHTML =
+    '<div class="page-header"><div><h1>Support</h1><p>Hubungi tim support Smart AI.</p></div></div>' +
+    '<div class="panel"><div class="panel-head"><h2>Kontak</h2></div>' +
+    '<p style="color:var(--text-muted);line-height:1.6">WhatsApp / email support akan ditampilkan di sini. Untuk demo portal, gunakan kanal internal tim.</p></div>';
+}
+</script>
+</body>
+</html>
